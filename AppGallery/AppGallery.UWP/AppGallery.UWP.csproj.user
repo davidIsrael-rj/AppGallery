@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</Source>
+    <SmallTileSource>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</SmallTileSource>
+    <MediumTileSource>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</MediumTileSource>
+    <WideTileSource>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</WideTileSource>
+    <LargeTileSource>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</LargeTileSource>
+    <AppIconSource>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</AppIconSource>
+    <SplashScreenSource>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</SplashScreenSource>
+    <PackageLogoSource>E:\C-Sharp\app\logoGallery\Gallery-black\Icone2.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
