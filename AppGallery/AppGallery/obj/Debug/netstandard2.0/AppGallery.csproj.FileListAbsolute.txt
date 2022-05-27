@@ -13,3 +13,7 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamlC.s
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.dll
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref\AppGallery.dll
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeConteudo\Conteudo01.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeNavegacao\Conteudo01.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeNavegacao\Conteudo02.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeNavegacao\Conteudo03.xaml.g.cs

@@ -4,5 +4,6 @@
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
     <SelectedDevice>Motorola Moto G %285%29</SelectedDevice>
     <ActiveDebugProfile>Motorola Moto G %285%29</ActiveDebugProfile>
+    <DefaultDevice>pixel_2_nougat_7_0_-_api_24</DefaultDevice>
   </PropertyGroup>
 </Project>
