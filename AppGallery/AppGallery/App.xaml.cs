@@ -32,7 +32,12 @@ namespace AppGallery
 
             MainPage = pagina;
             */
+            /*
             var pagina = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
+            MainPage = pagina;
+            */
+
+            var pagina = new XamarinForms.Paginas.PaginaDeAbas.Abas();
             MainPage = pagina;
 
         }
