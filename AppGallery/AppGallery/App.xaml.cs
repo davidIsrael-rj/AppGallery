@@ -44,10 +44,12 @@ namespace AppGallery
             pagina.Master = ;
             //Conteudo
             pagina.Detail = ;
-            */
+          
             var pagina = new XamarinForms.Paginas.PaginaDeMenuLateral.MenuLateral();
             MainPage = pagina;
-
+              */
+            var pagina = new AppBase.Menu();
+            MainPage = pagina;
 
         }
 
