@@ -18,3 +18,5 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\Xamarin
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeNavegacao\Conteudo02.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeNavegacao\Conteudo03.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeNavegacao\PaginaInserida.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\Modal\Conteudo01.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\Modal\PaginaDeModal.xaml.g.cs
