@@ -22,7 +22,7 @@ namespace AppGallery
             /*
              MainPage = new XamarinForms.Paginas.Modal.Conteudo01();
             */
-
+            /*
             var pagina = new CarouselPage();
             pagina.Children.Add(new XamarinForms.Paginas.PaginaDeCarrossel.Conteudo01());
             pagina.Children.Add(new XamarinForms.Paginas.PaginaDeCarrossel.Conteudo02());
@@ -31,6 +31,10 @@ namespace AppGallery
             pagina.CurrentPage = pagina.Children[1];
 
             MainPage = pagina;
+            */
+            var pagina = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
+            MainPage = pagina;
+
         }
 
         protected override void OnStart()
