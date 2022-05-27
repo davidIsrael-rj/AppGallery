@@ -25,5 +25,29 @@ namespace AppGallery.XamarinForms.Paginas.PaginaDeNavegacao
         {
             Navigation.PopAsync();
         }
+
+        private void VoltarParaOInicio(object sender, EventArgs e)
+        {
+            Navigation.PopToRootAsync(); 
+        }
+
+        private void InserirPaginaPilha(object sender, EventArgs e)
+        {
+           /* Navigation.InsertPageBefore(
+                new Conteudo01(),
+                this
+                );
+           */
+            Navigation.InsertPageBefore(
+                new PaginaInserida(),
+                Navigation.NavigationStack[0]
+                );
+           
+        }
+
+        private void RemoverPaginaPilha(object sender, EventArgs e)
+        {
+            Navigation.RemovePage(Navigation.NavigationStack[0]);
+        }
     }
 }
