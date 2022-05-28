@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
              x:Class="AppGallery.AppBase.Inicio">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="Black" Orientation="Vertical">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Label Text="App Gallery" TextColor="White" FontSize="40"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+                <Label Text="Demonstrando Componentes Visuais" TextColor="White"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
