@@ -13,6 +13,9 @@
                 <Button Text="TabbedPage" Clicked="AbrirTabbedPage"/>
                 <Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage"/>
                 <Button Text="Modal" Clicked="AbrirPaginaModal"/>
+
+                <Label Text="Layout"/>
+                <Button Text="StackLayout" Clicked="AbrirStackLayout"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
