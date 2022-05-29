@@ -83,21 +83,21 @@ namespace AppGallery.XamarinForms.Layout.GradeLayout
                     break;
                 case "Subtracao":
                     {
-                        resultado = resultado - ( valorA - valorB);
+                        resultado = valorA - valorB;
                         LblResultado.Text = resultado.ToString();
                         Limpar();
                     }
                     break;
                 case "Multiplicacao":
                     {
-                        resultado = resultado * (valorA * valorB);
+                        resultado =valorA * valorB;
                         LblResultado.Text = resultado.ToString();
                         Limpar();
                     }
                     break;
                 case "Divisao":
                     {
-                        resultado = resultado / (valorA / valorA);
+                        resultado = valorA / valorA;
                         LblResultado.Text = resultado.ToString();
                         Limpar();
                     }
