@@ -55,5 +55,11 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layout.PilhaLayout.Pilha();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirGrid(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layout.GradeLayout.Grade();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

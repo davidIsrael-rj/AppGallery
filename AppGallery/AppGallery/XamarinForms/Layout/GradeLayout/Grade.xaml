@@ -3,10 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallery.XamarinForms.Layout.GradeLayout.Grade">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid BackgroundColor="#707070" RowSpacing="1" ColumnSpacing="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>                
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>                
+            </Grid.RowDefinitions>
+
+            <Label x:Name="LblResultado" Text="Olá Mundo!" TextColor="White" 
+                   FontSize="48" 
+                   VerticalOptions="End" 
+                   HorizontalOptions="End" 
+                   Grid.ColumnSpan="4"
+                   Margin="10"/>
+            <!--Linha 6-->
+            <Button Text="0" Clicked="Zero" BackgroundColor="#C9CACD" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2"/>
+            <Button Text="." Clicked="Ponto" BackgroundColor="#C9CACD" Grid.Column="2" Grid.Row="5"/>
+            <Button Text="=" Clicked="Igual" BackgroundColor="#FB8C0D" Grid.Column="3" Grid.Row="5"/>
+            
+            <!--Linha 5-->
+            <Button Text="1" Clicked="Um" BackgroundColor="#C9CACD" Grid.Column="0" Grid.Row="4"/>
+            <Button Text="2" Clicked="Dois" BackgroundColor="#C9CACD" Grid.Column="1" Grid.Row="4"/>
+            <Button Text="3" Clicked="Tres" BackgroundColor="#C9CACD" Grid.Column="2" Grid.Row="4"/>
+            <Button Text="+" Clicked="Soma" BackgroundColor="#FB8C0D" Grid.Column="3" Grid.Row="4"/>
+            
+            
+            <!--Linha 4-->
+            <Button Text="4" Clicked="Quatro" BackgroundColor="#C9CACD" Grid.Column="0" Grid.Row="3"/>
+            <Button Text="5" Clicked="Cinco" BackgroundColor="#C9CACD" Grid.Column="1" Grid.Row="3"/>
+            <Button Text="6" Clicked="Seis" BackgroundColor="#C9CACD" Grid.Column="2" Grid.Row="3"/>
+            <Button Text="-" Clicked="Subtracao" BackgroundColor="#FB8C0D" Grid.Column="3" Grid.Row="3"/>
+            
+            <!--Linha 3-->
+            <Button Text="7" Clicked="Sete" BackgroundColor="#C9CACD" Grid.Column="0" Grid.Row="2"/>
+            <Button Text="8" Clicked="Oito" BackgroundColor="#C9CACD" Grid.Column="1" Grid.Row="2"/>
+            <Button Text="9" Clicked="Nove" BackgroundColor="#C9CACD" Grid.Column="2" Grid.Row="2"/>
+            <Button Text="x" Clicked="Multiplicacao" BackgroundColor="#FB8C0D" Grid.Column="3" Grid.Row="2"/>
+            
+            <!--Linha 2-->
+            <Button Text="C" Clicked="Deletar" BackgroundColor="#C9CACD" Grid.Column="0" Grid.Row="1"/>
+            <Button Text="+/-" Clicked="TrocaDeSinalMaisEMenos" BackgroundColor="#C9CACD" Grid.Column="1" Grid.Row="1"/>
+            <Button Text="%" Clicked="Porcentagem" BackgroundColor="#C9CACD" Grid.Column="2" Grid.Row="1"/>
+            <Button Text="/" Clicked="Divisao" BackgroundColor="#FB8C0D" Grid.Column="3" Grid.Row="1"/>
+            
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
