@@ -25,8 +25,8 @@ namespace AppGallery.XamarinForms.Layout.GradeLayout
         {
             valorA = 0;
             valorB = 0;
-            numA = "";
-            numB = "";
+            numA = "0";
+            numB = "0";
             operacao = "";
         }
         public void ZerarTudo()
@@ -35,18 +35,31 @@ namespace AppGallery.XamarinForms.Layout.GradeLayout
             LblResultado.Text = "0";
             resultado = 0;
         }
-        private void Zero(object sender, EventArgs e)
+        public void entrarValor(string valor)
         {
             if (operacao == "")
             {
-                numA = numA + "0";
-                LblResultado.Text = numA;
+                if (numA =="0" )
+                {
+                    numA = valor;
+                    LblResultado.Text = numA;
+                }
+                else
+                {
+                    numA = numA + valor;
+                    LblResultado.Text = numA;
+                }
             }
             else
             {
-                numB = numB + "0";
+                numB = valor;
                 LblResultado.Text = numB;
             }
+            
+        }
+        private void Zero(object sender, EventArgs e)
+        {
+            entrarValor("0");
         }
 
         private void Ponto(object sender, EventArgs e)
@@ -70,21 +83,21 @@ namespace AppGallery.XamarinForms.Layout.GradeLayout
                     break;
                 case "Subtracao":
                     {
-                        resultado = resultado -  valorA - valorA;
+                        resultado = resultado - ( valorA - valorB);
                         LblResultado.Text = resultado.ToString();
                         Limpar();
                     }
                     break;
                 case "Multiplicacao":
                     {
-                        resultado = resultado * valorA * valorB;
+                        resultado = resultado * (valorA * valorB);
                         LblResultado.Text = resultado.ToString();
                         Limpar();
                     }
                     break;
                 case "Divisao":
                     {
-                        resultado = resultado / valorA / valorA;
+                        resultado = resultado / (valorA / valorA);
                         LblResultado.Text = resultado.ToString();
                         Limpar();
                     }
@@ -96,45 +109,18 @@ namespace AppGallery.XamarinForms.Layout.GradeLayout
 
         private void Um(object sender, EventArgs e)
         {
-           if(operacao =="")
-            {
-                numA = numA + "1";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "1";
-                LblResultado.Text = numB;
-            }
+            entrarValor("1");
             
         }
 
         private void Dois(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "2";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "2";
-                LblResultado.Text = numB;
-            }
+            entrarValor("2");
         }
 
         private void Tres(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "3";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "3";
-                LblResultado.Text = numB;
-            }
+            entrarValor("3");
         }
 
         private void Soma(object sender, EventArgs e)
@@ -144,44 +130,17 @@ namespace AppGallery.XamarinForms.Layout.GradeLayout
 
         private void Quatro(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "4";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "4";
-                LblResultado.Text = numB;
-            }
+            entrarValor("4");
         }
 
         private void Cinco(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "5";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "5";
-                LblResultado.Text = numB;
-            }
+            entrarValor("5");
         }
 
         private void Seis(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "6";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "6";
-                LblResultado.Text = numB;
-            }
+            entrarValor("6");
         }
 
         private void Subtracao(object sender, EventArgs e)
@@ -191,44 +150,17 @@ namespace AppGallery.XamarinForms.Layout.GradeLayout
 
         private void Sete(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "7";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "7";
-                LblResultado.Text = numB;
-            }
+            entrarValor("7");
         }
 
         private void Oito(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "8";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "8";
-                LblResultado.Text = numB;
-            }
+            entrarValor("8");
         }
 
         private void Nove(object sender, EventArgs e)
         {
-            if (operacao == "")
-            {
-                numA = numA + "9";
-                LblResultado.Text = numA;
-            }
-            else
-            {
-                numB = numB + "9";
-                LblResultado.Text = numB;
-            }
+            entrarValor("9");
         }
 
         private void Multiplicacao(object sender, EventArgs e)
