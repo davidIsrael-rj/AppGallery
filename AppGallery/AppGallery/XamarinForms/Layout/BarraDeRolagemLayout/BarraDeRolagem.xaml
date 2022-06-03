@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Layout.BarraDeRolagemLayout.BarraDeRolagem">
+    <ContentPage.Content>
+        <ScrollView x:Name="BarraDeRolagemTexto">
+            <StackLayout Margin="10">
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Always">
+                    <StackLayout Orientation="Horizontal" Margin="20">
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        <BoxView Color="Black"/>
+                        
+                    </StackLayout>
+                </ScrollView>
+                <Button x:Name="BotaoUm" Text="Clique Me" BackgroundColor="Black" TextColor="White" Clicked="RolarParaASegundaLabel"/>
+                <Label x:Name="PrimeiraLabel" Text="HOME INICIO DO DOCUMENTO 
+                       
+                       *
+                       *
+                       *
+                       *
+                       *
+                       *
+                       *
+                       *
+                       *
+                       
+                       
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod bibendum dolor, ut tempor mauris dignissim sit amet. Maecenas vel felis in ligula fringilla gravida ut venenatis diam. Maecenas eu dignissim orci. Integer consequat eu orci vitae consectetur. Ut fringilla arcu nisi, eu malesuada nulla interdum sit amet. Nunc turpis felis, pulvinar in tincidunt sit amet, vehicula eu nisl. Donec lobortis mollis ipsum a semper.
+Proin porttitor a nisl non bibendum. Sed quis vulputate sapien, vel efficitur urna. Curabitur scelerisque suscipit mi gravida tempus. Donec vitae magna ipsum. Phasellus placerat odio ac quam vehicula ultrices. Nunc erat orci, consequat nec eros in, suscipit ornare velit. Suspendisse eleifend ante at libero suscipit, sed pretium sem vulputate. Pellentesque non faucibus massa. Donec at orci dui. Ut vitae aliquet massa.
+Duis malesuada iaculis dolor. Fusce sed ex vitae nulla lacinia interdum. Morbi lobortis laoreet lectus sed dignissim. Suspendisse dui ipsum, tempus in porttitor ut, pulvinar ac turpis. Sed a lectus cursus purus porttitor dictum at eget leo. Quisque lacinia mi ac dui pharetra sodales. Morbi ullamcorper vestibulum dictum.
+Phasellus iaculis sem ipsum. Cras tellus enim, consectetur ac augue in, vehicula sodales metus. Duis non eros at sem imperdiet maximus in sed risus. Sed tempus condimentum rhoncus. Donec accumsan lorem nec sapien placerat, nec sagittis nisl laoreet. Proin non ultrices elit. Aliquam erat volutpat. Aenean lobortis volutpat elit a dignissim. Vestibulum viverra nunc sit amet gravida maximus.
+Donec accumsan diam ac orci aliquet, at laoreet nulla pulvinar. Curabitur congue, risus a consequat dignissim, justo mi ornare tellus, in iaculis ex arcu sit amet felis. Aliquam tristique finibus nunc vel rutrum. Fusce eget nulla non elit imperdiet cursus facilisis ut ex. Suspendisse eu neque nulla. Sed interdum tellus a velit dignissim, fringilla malesuada ipsum faucibus. Integer lacinia magna ac aliquam iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec est vel arcu auctor semper. Etiam nec mauris nec neque tincidunt faucibus et ac dui. Nulla placerat eget massa id placerat. Pellentesque viverra volutpat mattis. Vivamus pellentesque eros et odio rutrum, id pharetra arcu posuere. Nam interdum, turpis vel ultricies porttitor, ipsum lorem elementum ante, eu congue ipsum ex sit amet sapien. Nam mollis elit vel lorem posuere, blandit fringilla est viverra. Quisque dapibus dolor quam. "
+                       BackgroundColor="Black"
+                       TextColor="White"/>
+                <Button x:Name="BotaoDois" Text="Clique Me Home" BackgroundColor="Black" TextColor="White" Clicked="RolarParaSubir"/>
+                <Label x:Name="SegundaLabel" Text="SEGUNDO DOCUMENTO **************************************************Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod bibendum dolor, ut tempor mauris dignissim sit amet. Maecenas vel felis in ligula fringilla gravida ut venenatis diam. Maecenas eu dignissim orci. Integer consequat eu orci vitae consectetur. Ut fringilla arcu nisi, eu malesuada nulla interdum sit amet. Nunc turpis felis, pulvinar in tincidunt sit amet, vehicula eu nisl. Donec lobortis mollis ipsum a semper.
+Proin porttitor a nisl non bibendum. Sed quis vulputate sapien, vel efficitur urna. Curabitur scelerisque suscipit mi gravida tempus. Donec vitae magna ipsum. Phasellus placerat odio ac quam vehicula ultrices. Nunc erat orci, consequat nec eros in, suscipit ornare velit. Suspendisse eleifend ante at libero suscipit, sed pretium sem vulputate. Pellentesque non faucibus massa. Donec at orci dui. Ut vitae aliquet massa.
+Duis malesuada iaculis dolor. Fusce sed ex vitae nulla lacinia interdum. Morbi lobortis laoreet lectus sed dignissim. Suspendisse dui ipsum, tempus in porttitor ut, pulvinar ac turpis. Sed a lectus cursus purus porttitor dictum at eget leo. Quisque lacinia mi ac dui pharetra sodales. Morbi ullamcorper vestibulum dictum.
+Phasellus iaculis sem ipsum. Cras tellus enim, consectetur ac augue in, vehicula sodales metus. Duis non eros at sem imperdiet maximus in sed risus. Sed tempus condimentum rhoncus. Donec accumsan lorem nec sapien placerat, nec sagittis nisl laoreet. Proin non ultrices elit. Aliquam erat volutpat. Aenean lobortis volutpat elit a dignissim. Vestibulum viverra nunc sit amet gravida maximus.
+Donec accumsan diam ac orci aliquet, at laoreet nulla pulvinar. Curabitur congue, risus a consequat dignissim, justo mi ornare tellus, in iaculis ex arcu sit amet felis. Aliquam tristique finibus nunc vel rutrum. Fusce eget nulla non elit imperdiet cursus facilisis ut ex. Suspendisse eu neque nulla. Sed interdum tellus a velit dignissim, fringilla malesuada ipsum faucibus. Integer lacinia magna ac aliquam iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec est vel arcu auctor semper. Etiam nec mauris nec neque tincidunt faucibus et ac dui. Nulla placerat eget massa id placerat. Pellentesque viverra volutpat mattis. Vivamus pellentesque eros et odio rutrum, id pharetra arcu posuere. Nam interdum, turpis vel ultricies porttitor, ipsum lorem elementum ante, eu congue ipsum ex sit amet sapien. Nam mollis elit vel lorem posuere, blandit fringilla est viverra. Quisque dapibus dolor quam. "
+                       BackgroundColor="Black"
+                       TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
