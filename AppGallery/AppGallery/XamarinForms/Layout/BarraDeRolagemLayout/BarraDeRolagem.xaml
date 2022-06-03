@@ -3,7 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallery.XamarinForms.Layout.BarraDeRolagemLayout.BarraDeRolagem">
     <ContentPage.Content>
-        <ScrollView x:Name="BarraDeRolagemTexto">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="25"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <ScrollView Grid.Row="0" Orientation="Both" Scrolled="ScrollView_Scrolled">
+                <StackLayout Padding="20">
+                    <BoxView Color="Black" WidthRequest="500" HeightRequest="500"/>
+                    <Label x:Name="Posicao" Text="ScrollView 01" TextColor="White" BackgroundColor="Black" FontSize="20" Padding="10"/>
+                </StackLayout>
+            </ScrollView>
+            <Label Grid.Row="1" x:Name="PosicaoDois" Text="posição" FontSize="20"/>
+            <ScrollView x:Name="BarraDeRolagemTexto" Grid.Row="2">
             <StackLayout Margin="10">
                 <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Always">
                     <StackLayout Orientation="Horizontal" Margin="20">
@@ -61,5 +78,6 @@ Donec accumsan diam ac orci aliquet, at laoreet nulla pulvinar. Curabitur congue
                        TextColor="White"/>
             </StackLayout>
         </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
