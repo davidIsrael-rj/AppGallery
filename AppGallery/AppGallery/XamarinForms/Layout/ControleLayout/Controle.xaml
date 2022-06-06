@@ -8,7 +8,9 @@
             <controle:CardHorizontal Titulo="Not 01" Texto="Texto 01" Cor="Gray"/>
             <controle:CardHorizontal Titulo="Not 02" Texto="Texto 02" Cor="Gray"/>
             <controle:CardHorizontal Titulo="Not 03" Texto="Texto 03" Cor="#202020"/>
-            
+            <controle:CardDiretor Nome="David" Descricao="Sistemas ERP´s" BoxViewColor ="Blue"/>
+            <controle:CardDiretor/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
