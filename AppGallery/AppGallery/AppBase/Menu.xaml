@@ -22,6 +22,7 @@
                     <Button Text="RelativeLayout" Clicked="AbrirRelativeLayout"/>
                     <Button Text="FlexLayout" Clicked="AbrirFlexLayout"/>
                     <Button Text="ScrollView" Clicked="AbrirScrollView"/>
+                    <Button Text="ContentView" Clicked="AbrirContentView"/>
 
                 </StackLayout>
             </ScrollView>

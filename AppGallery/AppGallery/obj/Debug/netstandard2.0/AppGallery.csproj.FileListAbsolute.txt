@@ -37,3 +37,5 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\Xamarin
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\RelativoLayout\Relativo.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\FlexivelLayout\Flexivel.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\BarraDeRolagemLayout\BarraDeRolagem.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\ControleLayout\Controle.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\ControleLayout\CardHorizontal.xaml.g.cs
