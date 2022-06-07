@@ -25,6 +25,8 @@
                     <Button Text="ContentView" Clicked="AbrirContentView"/>
                     <Button Text="Frame" Clicked="AbrirFrame"/>
 
+                    <Label Text="Controles"/>
+                    <Button Text="BoxView" Clicked="AbrirBoxView"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

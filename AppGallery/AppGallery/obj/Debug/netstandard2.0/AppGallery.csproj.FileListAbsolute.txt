@@ -2,7 +2,6 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\AppGall
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\AppGallery.dll
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\ref\AppGallery.dll
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\AppGallery.pdb
-E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.csproj.AssemblyReference.cache
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.GeneratedMSBuildEditorConfig.editorconfig
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
@@ -41,3 +40,5 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\Xamarin
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\ControleLayout\CardHorizontal.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\ControleLayout\CardDiretor.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layout\QuadradoLayout\Quadrado.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.csproj.AssemblyReference.cache
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\CaixaControle\CaixaUm.xaml.g.cs
