@@ -103,6 +103,12 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CaixaControle.CaixaUm();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirLabel(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.RotuloControle.Rotulo();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
        
 }

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Controles.RotuloControle.Rotulo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Label Text="TextColor" TextColor="Black" />
+                <Label Text="Texto 01" TextColor="#FF0000"  />
+                <Label Text="Texto 02" TextColor="#7FFF0000" />
+                
+                
+                <Label Text="TextDecorations" TextColor="Black" />
+                <Label Text="Texto 01" TextDecorations="Strikethrough" />
+                <Label Text="Texto 02" TextDecorations="Underline" />
+
+                <Label Text="CharacterSpacing" TextColor="Black" />
+                <Label Text="Texto 01"  CharacterSpacing="-2"/>
+                <Label Text="Texto 02"  CharacterSpacing="10"/>
+
+                <Label Text="MaxLines" TextColor="Black" />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       MaxLines="3"
+                       />
+                <Label Text="LineBreakMode" TextColor="Black" />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       TextColor="Green"
+                       LineBreakMode="CharacterWrap"
+                       />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       TextColor="Black"
+                       LineBreakMode="HeadTruncation"
+                       />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       TextColor="Red"
+                       LineBreakMode="MiddleTruncation"
+                       />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       TextColor="Blue"
+                       LineBreakMode="NoWrap"
+                       />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       TextColor="LightCoral"
+                       LineBreakMode="TailTruncation"
+                       />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       TextColor="Brown"
+                       LineBreakMode="WordWrap"
+                       />
+
+                <!--Template Base
+                <Label Text="TextDecorations" TextColor="Black" />
+                <Label Text="Texto 01"  />
+                <Label Text="Texto 02"  />
+                -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
