@@ -44,3 +44,4 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGall
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\CaixaControle\CaixaUm.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\RotuloControle\Rotulo.xaml.g.cs
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\BotaoControle\Botao.xaml.g.cs
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\BotaoImagemControle\BotaoImagem.xaml.g.cs
