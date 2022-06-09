@@ -29,7 +29,29 @@
                     Padding="30, 10"
                     />
             <Button Text="Botão 05" BackgroundColor="Green" CharacterSpacing="10" Margin="0,20,0,1"/>
-            <Button Text="Botão 06" />
+            
+            <Button Text="Botão 06" Pressed="Pressionado" Released="Liberado" Clicked="Clicado">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="White"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Pressed">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="Gray"/>
+                                <Setter Property="BorderColor" Value="Black"/>
+                                <Setter Property="BorderWidth" Value="2"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </Button>
+
+            <Label Text="-" x:Name="LblPressionado"/>
+            <Label Text="-" x:Name="LblLiberado"/>
+            <Label Text="-" x:Name="LblClicado"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
