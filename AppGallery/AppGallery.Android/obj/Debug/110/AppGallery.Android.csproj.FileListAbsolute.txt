@@ -594,3 +594,9 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawab
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxhdpi\logotextoblackp.png
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxxhdpi\logoblackp.png
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxxhdpi\logotextoblackp.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxxhdpi\iconebotao.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-hdpi\iconebotao.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-ldpi\iconebotao.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-mdpi\iconebotao.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xhdpi\iconebotao.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxhdpi\iconebotao.png

@@ -172,4 +172,13 @@
       <Name>AppGallery</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\IconeBotao%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\IconeBotao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\IconeBotao%402x.png" />
+  </ItemGroup>
 </Project>

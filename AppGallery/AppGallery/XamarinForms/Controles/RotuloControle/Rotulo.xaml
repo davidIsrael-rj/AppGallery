@@ -5,6 +5,44 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="20">
+                <Label Text="FontFamily, FontSize, FontAttributes" TextColor="Black" />
+                <Label Text="Texto 01"  FontFamily="sans-serif-condensed" FontSize="24" FontAttributes="Italic"/>
+                
+                
+                <Label Text="HorizontalTextAling, VerticalTextAling" TextColor="Black" />
+                <Label Text="Texto 01" 
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="Black" 
+                       TextColor="White" 
+                       HeightRequest="60" 
+                       WidthRequest="100"
+                       HorizontalOptions="Start"/>
+                <Label Text="Texto 02" 
+                       VerticalTextAlignment="Center"
+                       BackgroundColor="Black" 
+                       TextColor="White" 
+                       HeightRequest="60" 
+                       WidthRequest="100"
+                       HorizontalOptions="Start"/>
+
+                <Label Text="TextType" TextColor="Black" />
+                <Label Text="Texto &lt;strong&gt; 01 &lt;/strong&gt; " TextType="Html"  />
+                <Label TextType="Html" >
+                    <![CDATA[
+                    Texto <strong><i>02</i></strong>
+                    ]]>
+                </Label>
+                <Label Text="FormattedText" TextColor="Black" />
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Texto " TextColor="Green" FontSize="8"/>
+                            <Span Text="01" TextColor="Red" FontSize="24"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+
                 <Label Text="TextColor" TextColor="Black" />
                 <Label Text="Texto 01" TextColor="#FF0000"  />
                 <Label Text="Texto 02" TextColor="#7FFF0000" />
@@ -18,6 +56,13 @@
                 <Label Text="Texto 01"  CharacterSpacing="-2"/>
                 <Label Text="Texto 02"  CharacterSpacing="10"/>
 
+                <Label Text="LineHeight" TextColor="Black" />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
+                       MaxLines="3"
+                       LineHeight="2"
+                       
+                       /> 
+                
                 <Label Text="MaxLines" TextColor="Black" />
                 <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie, justo nec maximus maximus, dolor neque varius magna, et consectetur mauris lacus at libero. Ut ullamcorper fringilla ultrices. Donec purus lacus, finibus quis neque ut, interdum maximus ex. Ut in purus enim. Donec congue, eros in ornare euismod, lorem turpis sagittis mi, ut feugiat dui diam nec leo. Quisque in ante euismod, vestibulum nulla nec, commodo nisl. Donec elit justo, ultricies at hendrerit sed, venenatis euismod massa. Maecenas imperdiet dolor in egestas facilisis. Curabitur felis justo, feugiat sit amet risus id, consequat auctor ante. Fusce mollis tincidunt faucibus. Donec venenatis sem quis turpis auctor, vel malesuada nibh aliquam. Suspendisse mollis nisl nisl, in finibus tortor varius quis. Etiam condimentum odio a rutrum mattis. " 
                        MaxLines="3"
