@@ -88,31 +88,31 @@ namespace AppGallery.AppBase
 
         private void AbrirContentView(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layout.ControleLayout.Controle();
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Layout.ControleLayout.Controle());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirFrame(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layout.QuadradoLayout.Quadrado();
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Layout.QuadradoLayout.Quadrado());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirBoxView(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CaixaControle.CaixaUm();
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.CaixaControle.CaixaUm());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirLabel(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.RotuloControle.Rotulo();
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.RotuloControle.Rotulo());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirButton(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.BotaoControle.Botao();
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.BotaoControle.Botao());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
     }
