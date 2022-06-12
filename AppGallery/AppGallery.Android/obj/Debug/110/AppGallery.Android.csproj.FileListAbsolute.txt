@@ -600,3 +600,9 @@ E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawab
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-mdpi\iconebotao.png
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xhdpi\iconebotao.png
 E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxhdpi\iconebotao.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxxhdpi\lampada.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-hdpi\lampada.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-ldpi\lampada.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-mdpi\lampada.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xhdpi\lampada.png
+E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.Android\obj\Debug\110\res\drawable-xxhdpi\lampada.png

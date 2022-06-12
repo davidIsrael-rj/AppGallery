@@ -4,8 +4,23 @@
              xmlns:ext="clr-namespace:AppGallery.XamarinForms.Controles.ImagemControle"
              x:Class="AppGallery.XamarinForms.Controles.ImagemControle.Imagem">
     <ContentPage.Content>
-        <StackLayout>
-            <Image x:Name="Imagem01" Source="{ext:ImageResource AppGallery.XamarinForms.Controles.ImagemControle.background.png}"/>            
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Source: resource"/>
+                <Image x:Name="Imagem01"
+                       Source="{ext:ImageResource AppGallery.XamarinForms.Controles.ImagemControle.background.png}"
+                       Aspect="AspectFill"
+                       />
+                <!-- Recurso-->
+
+                <!-- Arquivo  -> Imagens dentro dos projetos especifícos do SO-->
+                <Label Text="Source: File, Aspect"/>
+                <Image Source="Lampada.png"/>
+                <!--URI -->
+                <Label Text="Source:Uri"/>
+                <Image Source="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg"/>
+               
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
