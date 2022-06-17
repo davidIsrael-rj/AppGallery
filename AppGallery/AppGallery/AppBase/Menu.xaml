@@ -31,6 +31,8 @@
                     <Button Text="Button" Clicked="AbrirButton"/>
                     <Button Text="ImageButton" Clicked="AbrirImageButton"/>
                     <Button Text="Image" Clicked="AbrirImage"/>
+                    <Button Text="Entry" Clicked="AbrirEntry"/>
+                    <Button Text="Editor" Clicked="AbrirEditor"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

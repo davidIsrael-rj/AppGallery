@@ -18,6 +18,7 @@
                 <Image Source="Lampada.png"/>
                 <!--URI -->
                 <Label Text="Source:Uri"/>
+                
                 <Image Source="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg"/>
                
             </StackLayout>
