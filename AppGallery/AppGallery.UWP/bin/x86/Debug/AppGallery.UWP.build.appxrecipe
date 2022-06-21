@@ -261,6 +261,21 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\IconeBotao%402x.png">
+      <PackagePath>IconeBotao%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\IconeBotao.png">
+      <PackagePath>IconeBotao.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Lampada.scale-100.png">
+      <PackagePath>Lampada.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Lampada.scale-200.png">
+      <PackagePath>Lampada.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Lampada.scale-400.png">
+      <PackagePath>Lampada.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

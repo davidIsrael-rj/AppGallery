@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-26T16:02:02.907</Modified>
+      <Modified>2022-06-21T00:16:58.844</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\bin\x86\Debug\AppGallery.UWP.exe">
       <PackagePath>entrypoint\AppGallery.UWP.exe</PackagePath>
-      <Modified>2022-05-26T16:01:41.596</Modified>
+      <Modified>2022-06-21T00:16:51.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -68,7 +68,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\AppGallery.dll">
       <PackagePath>AppGallery.dll</PackagePath>
-      <Modified>2022-05-26T14:45:44.335</Modified>
+      <Modified>2022-06-17T09:32:39.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Genesis\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -332,6 +332,26 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-05-26T16:00:14.020</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\IconeBotao%402x.png">
+      <PackagePath>IconeBotao%402x.png</PackagePath>
+      <Modified>2022-06-09T09:39:27.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\IconeBotao.png">
+      <PackagePath>IconeBotao.png</PackagePath>
+      <Modified>2022-06-09T09:39:27.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Lampada.scale-100.png">
+      <PackagePath>Lampada.scale-100.png</PackagePath>
+      <Modified>2022-06-12T10:31:43.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Lampada.scale-200.png">
+      <PackagePath>Lampada.scale-200.png</PackagePath>
+      <Modified>2022-06-12T10:31:43.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Lampada.scale-400.png">
+      <PackagePath>Lampada.scale-400.png</PackagePath>
+      <Modified>2022-06-12T10:31:43.286</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-05-25T22:48:21.251</Modified>
@@ -342,11 +362,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-26T16:01:41.145</Modified>
+      <Modified>2022-06-21T00:16:51.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-26T16:01:41.146</Modified>
+      <Modified>2022-06-21T00:16:51.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -362,11 +382,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-26T16:01:46.155</Modified>
+      <Modified>2022-06-21T00:16:54.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C-Sharp\app\AppGallery\AppGallery\AppGallery.UWP\bin\x86\Debug\Core\AppGallery.UWP.exe">
       <PackagePath>AppGallery.UWP.exe</PackagePath>
-      <Modified>2022-05-26T16:02:02.895</Modified>
+      <Modified>2022-06-21T00:16:58.830</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
