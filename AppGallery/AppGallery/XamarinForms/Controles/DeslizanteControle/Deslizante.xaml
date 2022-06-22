@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="20"
+             
+             x:Class="AppGallery.XamarinForms.Controles.DeslizanteControle.Deslizante">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Minimum, Maximum, Value"  />
+            <Slider Minimum="0" Maximum="5" Value="3"/>
+
+            <Label Text="MinimumTrackColor, MaximumTrackColor, ThumbColor"  />
+            <Slider MinimumTrackColor="Green" MaximumTrackColor="Green" ThumbColor="Blue"/>
+
+            <Label Text="ThumbImageSource"  />
+            <Slider MinimumTrackColor="Green" MaximumTrackColor="Green" ThumbColor="Blue" ThumbImageSource="IconeBotao.png"/>
+
+            <Label Text="Eventos:ValueChanged, DragStarted, DragCompleted   "  />
+            <Slider MinimumTrackColor="Green" MaximumTrackColor="Green" ThumbColor="Blue" 
+                    ValueChanged="Slider_ValueChanged"
+                    DragStarted="Slider_DragStarted"
+                    DragCompleted="Slider_DragCompleted"
+                    />
+
+            <Label x:Name="lblValueChanged"/>
+            <Label x:Name="lblDragStarted"/>
+            <Label x:Name="lblDragCompleted"/>
+
+            <Label Text="Dica(Incremento) "  />
+            <Slider MinimumTrackColor="Green" MaximumTrackColor="Green" ThumbColor="Blue"
+                    Minimum="0"
+                    Maximum="10"
+                    ValueChanged="Slider_ValueChanged_Step"/>
+            <Label x:Name="lblValueChangedStep"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
