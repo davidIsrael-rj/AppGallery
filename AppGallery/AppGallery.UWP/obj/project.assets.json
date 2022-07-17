@@ -9061,11 +9061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
+      "projectUniqueName": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
       "projectName": "AppGallery.UWP",
-      "projectPath": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
+      "projectPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
       "packagesPath": "C:\\Users\\Genesis\\.nuget\\packages\\",
-      "outputPath": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery.UWP\\obj\\",
+      "outputPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9089,8 +9089,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj": {
-              "projectPath": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj"
+            "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj": {
+              "projectPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj"
             }
           }
         }

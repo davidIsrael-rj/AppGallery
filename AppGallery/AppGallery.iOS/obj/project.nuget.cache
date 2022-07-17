@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n51CZtWlYUjMhvGCBYu/a7DZ79szj8Y5HmBv7gG03oU+eTx9giQcHH+9YkQYbcns2x/oeIHfgqRpzOTd4t+sOQ==",
+  "dgSpecHash": "vZDDSTBYwF9hhvMW3OgEpE63vwRUlmf8wmIm6YiCgAD/vvMYaArRFBJWF7y7qFvg28YC49AnI6FnzAW6hzTpVg==",
   "success": true,
-  "projectFilePath": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
+  "projectFilePath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Genesis\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

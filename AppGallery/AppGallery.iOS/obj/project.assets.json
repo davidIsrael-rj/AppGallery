@@ -998,11 +998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
+      "projectUniqueName": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
       "projectName": "AppGallery.iOS",
-      "projectPath": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
+      "projectPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
       "packagesPath": "C:\\Users\\Genesis\\.nuget\\packages\\",
-      "outputPath": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery.iOS\\obj\\",
+      "outputPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1025,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj": {
-              "projectPath": "E:\\C-Sharp\\app\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj"
+            "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj": {
+              "projectPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj"
             }
           }
         }
