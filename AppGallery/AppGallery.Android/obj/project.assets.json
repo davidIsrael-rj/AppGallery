@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.Android\\AppGallery.Android.csproj",
+      "projectUniqueName": "F:\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.Android\\AppGallery.Android.csproj",
       "projectName": "AppGallery.Android",
-      "projectPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.Android\\AppGallery.Android.csproj",
+      "projectPath": "F:\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.Android\\AppGallery.Android.csproj",
       "packagesPath": "C:\\Users\\Genesis\\.nuget\\packages\\",
-      "outputPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.Android\\obj\\",
+      "outputPath": "F:\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj": {
-              "projectPath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj"
+            "F:\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj": {
+              "projectPath": "F:\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj"
             }
           }
         }

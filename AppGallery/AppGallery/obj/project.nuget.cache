@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vf9OQqkA4cg5eYphQXLfJs9UemE3EIKc+C90Uvd/rdJqqmiMJAlqwC/Ftw5DwfMmI8m+KXZdJ8Y+nIv9cYSP5w==",
+  "dgSpecHash": "QMG/71UmlpX+XKMw1iTcev1usuhT3WwzeiTNnf5IPfqheKMaYK3DdSmsyzRtN0uumm8oC+XXLKEhrEpgnRVILw==",
   "success": true,
-  "projectFilePath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj",
+  "projectFilePath": "F:\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery\\AppGallery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Genesis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Genesis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

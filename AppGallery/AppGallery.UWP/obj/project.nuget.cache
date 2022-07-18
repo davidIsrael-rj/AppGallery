@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K9Gr8GQiaJTy6v/zBjZSgwEfeM1wCWSifdOXmeICfIqon0t89ljkoZiajLf9fI32lsLS4ReztQCP9NLN8mcKOQ==",
+  "dgSpecHash": "cdnNWbFjQhjXeonUpnj3UmvkqBGevSW4MaRZWqBXFDNxBw3QPYljFQdqdFvlYDsVxhUjRqfErEZNFg0x4Ypu0g==",
   "success": true,
-  "projectFilePath": "F:\\david\\Desktop\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
+  "projectFilePath": "F:\\projeto\\AppGallery_Xamarin\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
