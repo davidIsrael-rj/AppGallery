@@ -177,3 +177,4 @@ F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\Xam
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.dll
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref\AppGallery.dll
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb
+F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\AtualizaControle\Atualiza.xaml.g.cs
