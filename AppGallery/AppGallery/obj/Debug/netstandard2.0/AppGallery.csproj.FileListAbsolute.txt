@@ -178,3 +178,4 @@ F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\App
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref\AppGallery.dll
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\AtualizaControle\Atualiza.xaml.g.cs
+F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ArrastaControle\Arrasta.xaml.g.cs

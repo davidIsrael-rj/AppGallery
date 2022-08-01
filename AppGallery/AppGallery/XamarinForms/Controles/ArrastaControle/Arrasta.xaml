@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Controles.ArrastaControle.Arrasta">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="SwipeView" />
+            <Label Text="Propiedades:IconImageSource, BackgroundColor, SwipeBehaviorOnInvoked " />
+            <Label Text="Eventos: " />
+            <Label Text="Observação: Requisito: SwipeView - XF4.4+,SetFlag('swipeView_Experimental')" />
+
+
+            <SwipeView x:Name="SwipeView_Arrastar" CloseRequested ="SwipeCloseRequested"  Margin="10" SwipeStarted="EventoSwipeStarted" SwipeChanging="EventoSwipeChanging" SwipeEnded="EventoSwipeEnded">
+                <SwipeView.LeftItems>
+                    <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                        <SwipeItem Text="Detalhe" Clicked="BotaoDetalhe" IconImageSource="iconeBotao.png" BackgroundColor="Aquamarine"/>
+                        <SwipeItem Text="Editar" Clicked="BotaoEditar" BackgroundColor="Violet"/>
+                    </SwipeItems>
+                </SwipeView.LeftItems>
+                <SwipeView.RightItems>
+                    
+                    <SwipeItems Mode="Reveal">
+                        <SwipeItemView>
+                            <StackLayout Padding="20" WidthRequest="100" BackgroundColor="LightSkyBlue">
+                                <Label Text="Visualizar" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </SwipeItemView>
+                        <SwipeItem Text="Excluir" Clicked="BotaoExcluir" IconImageSource="iconeBotao.png" BackgroundColor="Red"/>
+                        
+                    </SwipeItems>
+                </SwipeView.RightItems>
+                <Frame BorderColor="Gray" >
+                    <Label Text="Arrastar" TextColor="Red" FontSize="24" HorizontalOptions="Center"/>
+                </Frame>
+            </SwipeView>
+            
+            
+            <SwipeView Margin="10">
+                <SwipeView.TopItems>
+                    <SwipeItems>
+                        <SwipeItem Text="Detalhe" Invoked="Swipe_Detalhe" IconImageSource="iconeBotao.png" BackgroundColor="Aquamarine"/>
+                        <SwipeItem Text="Editar" Invoked="Swipe_Editar" BackgroundColor="Violet"/>
+                    </SwipeItems>
+                </SwipeView.TopItems>
+                
+                <SwipeView.BottomItems>
+                    <SwipeItems Mode="Execute">
+                        <SwipeItem Text="Excluir" Invoked="Swipe_Excluir" IconImageSource="iconeBotao.png" BackgroundColor="Red"/>
+
+                    </SwipeItems>
+                </SwipeView.BottomItems>
+                <Frame BorderColor="Gray" >
+                    <Label Text="Arrastar" TextColor="Red" FontSize="24" HorizontalOptions="Center"/>
+                </Frame>
+            </SwipeView>
+            
+            
+            <Label x:Name="lblDetalhe" Text=" - "/>
+            <Label x:Name="lblEditar" Text=" - "/>
+            <Label x:Name="lblExcluir" Text=" - "/>
+            <Label x:Name="lblSwipeStarted" Text=" - "/>
+            <Label x:Name="lblSwipeChanging" Text=" - "/>
+            <Label x:Name="lblSwipeEnded" Text=" - "/>
+            <Label x:Name="lblSwipeClose" Text=" - "/>
+
+            <Button Text="Fechar SwipeView" Clicked="Botao_CloseSwipeView"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -211,6 +211,12 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.AtualizaControle.Atualiza());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirSwipeWiew(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.ArrastaControle.Arrasta());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
        
 }
