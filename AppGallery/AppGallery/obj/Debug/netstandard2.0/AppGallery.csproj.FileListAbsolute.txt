@@ -179,3 +179,4 @@ F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\AtualizaControle\Atualiza.xaml.g.cs
 F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ArrastaControle\Arrasta.xaml.g.cs
+F:\projeto\AppGallery_Xamarin\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\NavegadorControle\Navegador.xaml.g.cs

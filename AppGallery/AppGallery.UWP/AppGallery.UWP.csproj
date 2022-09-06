@@ -93,6 +93,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BaseUrl_UWP.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -160,6 +161,181 @@
     <Content Include="Lampada.scale-200.png" />
     <Content Include="Lampada.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <AndroidAsset Include="Site\assets\css\animate.min.css" />
+    <AndroidAsset Include="Site\assets\css\bootstrap.min.css" />
+    <AndroidAsset Include="Site\assets\css\flaticon.css" />
+    <AndroidAsset Include="Site\assets\css\fontawesome-all.min.css" />
+    <AndroidAsset Include="Site\assets\css\gijgo.css" />
+    <AndroidAsset Include="Site\assets\css\magnific-popup.css" />
+    <AndroidAsset Include="Site\assets\css\nice-select.css" />
+    <AndroidAsset Include="Site\assets\css\owl.carousel.min.css" />
+    <AndroidAsset Include="Site\assets\css\responsive.css" />
+    <AndroidAsset Include="Site\assets\css\slick.css" />
+    <AndroidAsset Include="Site\assets\css\slicknav.css" />
+    <AndroidAsset Include="Site\assets\css\style.css" />
+    <AndroidAsset Include="Site\assets\css\themify-icons.css" />
+    <AndroidAsset Include="Site\assets\fonts\fa-brands-400.svg" />
+    <AndroidAsset Include="Site\assets\fonts\fa-regular-400.svg" />
+    <AndroidAsset Include="Site\assets\fonts\fa-solid-900.svg" />
+    <AndroidAsset Include="Site\assets\fonts\flaticon.css" />
+    <AndroidAsset Include="Site\assets\fonts\Flaticon.svg" />
+    <AndroidAsset Include="Site\assets\fonts\themify.svg" />
+    <AndroidAsset Include="Site\assets\img\about\about_lft.png" />
+    <AndroidAsset Include="Site\assets\img\about\about_right.png" />
+    <AndroidAsset Include="Site\assets\img\about\pet_care.png" />
+    <AndroidAsset Include="Site\assets\img\adapt_icon\1.png" />
+    <AndroidAsset Include="Site\assets\img\adapt_icon\1.svg" />
+    <AndroidAsset Include="Site\assets\img\adapt_icon\2.png" />
+    <AndroidAsset Include="Site\assets\img\adapt_icon\3.png" />
+    <AndroidAsset Include="Site\assets\img\banner\dog.png" />
+    <AndroidAsset Include="Site\assets\img\banner\img.png" />
+    <AndroidAsset Include="Site\assets\img\blog\author.png" />
+    <AndroidAsset Include="Site\assets\img\blog\blog_1.png" />
+    <AndroidAsset Include="Site\assets\img\blog\blog_2.png" />
+    <AndroidAsset Include="Site\assets\img\blog\blog_3.png" />
+    <AndroidAsset Include="Site\assets\img\blog\blog_4.png" />
+    <AndroidAsset Include="Site\assets\img\blog\learn_about_bg.png" />
+    <AndroidAsset Include="Site\assets\img\blog\single_blog_1.png" />
+    <AndroidAsset Include="Site\assets\img\blog\single_blog_2.png" />
+    <AndroidAsset Include="Site\assets\img\blog\single_blog_3.png" />
+    <AndroidAsset Include="Site\assets\img\blog\single_blog_4.png" />
+    <AndroidAsset Include="Site\assets\img\blog\single_blog_5.png" />
+    <AndroidAsset Include="Site\assets\img\blog\slide_thumb_1.png" />
+    <AndroidAsset Include="Site\assets\img\comment\comment_1.png" />
+    <AndroidAsset Include="Site\assets\img\comment\comment_2.png" />
+    <AndroidAsset Include="Site\assets\img\comment\comment_3.png" />
+    <AndroidAsset Include="Site\assets\img\elements\a.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\a2.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\d.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\disabled-check.png" />
+    <AndroidAsset Include="Site\assets\img\elements\disabled-radio.png" />
+    <AndroidAsset Include="Site\assets\img\elements\f1.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\f2.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\f3.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\f4.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\f5.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\f6.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\f7.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\f8.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g1.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g2.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g3.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g4.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g5.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g6.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g7.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\g8.jpg" />
+    <AndroidAsset Include="Site\assets\img\elements\primary-check.png" />
+    <AndroidAsset Include="Site\assets\img\elements\primary-radio.png" />
+    <AndroidAsset Include="Site\assets\img\elements\success-check.png" />
+    <AndroidAsset Include="Site\assets\img\elements\success-radio.png" />
+    <AndroidAsset Include="Site\assets\img\favicon.ico" />
+    <AndroidAsset Include="Site\assets\img\gallery\1.png" />
+    <AndroidAsset Include="Site\assets\img\gallery\2.png" />
+    <AndroidAsset Include="Site\assets\img\gallery\3.png" />
+    <AndroidAsset Include="Site\assets\img\hero\about-sharpe2.png" />
+    <AndroidAsset Include="Site\assets\img\hero\about_hero.jpg" />
+    <AndroidAsset Include="Site\assets\img\hero\about_hero.png" />
+    <AndroidAsset Include="Site\assets\img\hero\about_shape1.png" />
+    <AndroidAsset Include="Site\assets\img\hero\contact_hero.jpg" />
+    <AndroidAsset Include="Site\assets\img\hero\gallery_hero.jpg" />
+    <AndroidAsset Include="Site\assets\img\hero\h1_hero.png" />
+    <AndroidAsset Include="Site\assets\img\hero\hero_right.png" />
+    <AndroidAsset Include="Site\assets\img\hero\Industries_hero.jpg" />
+    <AndroidAsset Include="Site\assets\img\hero\services_hero.jpg" />
+    <AndroidAsset Include="Site\assets\img\logo\logo.png" />
+    <AndroidAsset Include="Site\assets\img\logo\logo2_footer.png" />
+    <AndroidAsset Include="Site\assets\img\logo\testimonial.png" />
+    <AndroidAsset Include="Site\assets\img\offers\1.png" />
+    <AndroidAsset Include="Site\assets\img\offers\2.png" />
+    <AndroidAsset Include="Site\assets\img\offers\3.png" />
+    <AndroidAsset Include="Site\assets\img\our_blog\blog-img1.jpg" />
+    <AndroidAsset Include="Site\assets\img\post\next.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_1.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_10.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_2.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_3.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_4.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_5.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_6.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_7.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_8.png" />
+    <AndroidAsset Include="Site\assets\img\post\post_9.png" />
+    <AndroidAsset Include="Site\assets\img\post\preview.png" />
+    <AndroidAsset Include="Site\assets\img\prising\1.png" />
+    <AndroidAsset Include="Site\assets\img\prising\10.png" />
+    <AndroidAsset Include="Site\assets\img\prising\2.png" />
+    <AndroidAsset Include="Site\assets\img\prising\3.png" />
+    <AndroidAsset Include="Site\assets\img\prising\4.png" />
+    <AndroidAsset Include="Site\assets\img\prising\5.png" />
+    <AndroidAsset Include="Site\assets\img\prising\6.png" />
+    <AndroidAsset Include="Site\assets\img\prising\7.png" />
+    <AndroidAsset Include="Site\assets\img\prising\8.png" />
+    <AndroidAsset Include="Site\assets\img\prising\9.png" />
+    <AndroidAsset Include="Site\assets\img\service\1.png" />
+    <AndroidAsset Include="Site\assets\img\service\2.png" />
+    <AndroidAsset Include="Site\assets\img\service\3.png" />
+    <AndroidAsset Include="Site\assets\img\service\service_icon_1.png" />
+    <AndroidAsset Include="Site\assets\img\service\service_icon_2.png" />
+    <AndroidAsset Include="Site\assets\img\service\service_icon_3.png" />
+    <AndroidAsset Include="Site\assets\img\service\service_icon_bg_1.png" />
+    <AndroidAsset Include="Site\assets\img\service\we-create.png" />
+    <AndroidAsset Include="Site\assets\img\shape\choose_your.png" />
+    <AndroidAsset Include="Site\assets\img\shape\footer_bg.png" />
+    <AndroidAsset Include="Site\assets\img\shape\plus1.png" />
+    <AndroidAsset Include="Site\assets\img\shape\plus2.png" />
+    <AndroidAsset Include="Site\assets\img\shape\plus3.png" />
+    <AndroidAsset Include="Site\assets\img\shape\plus4.png" />
+    <AndroidAsset Include="Site\assets\img\shape\tips.png" />
+    <AndroidAsset Include="Site\assets\img\shape\we-create_bg.png" />
+    <AndroidAsset Include="Site\assets\img\shape\we_create_right.png" />
+    <AndroidAsset Include="Site\assets\img\shape\what_do.png" />
+    <AndroidAsset Include="Site\assets\img\shape\what_do_right.png" />
+    <AndroidAsset Include="Site\assets\img\team\1.png" />
+    <AndroidAsset Include="Site\assets\img\team\2.png" />
+    <AndroidAsset Include="Site\assets\img\team\3.png" />
+    <AndroidAsset Include="Site\assets\img\team\have.jpg" />
+    <AndroidAsset Include="Site\assets\img\testmonial\1.png" />
+    <AndroidAsset Include="Site\assets\img\testmonial\testimonial.png" />
+    <AndroidAsset Include="Site\assets\img\tips\tips_1.jpg" />
+    <AndroidAsset Include="Site\assets\img\tips\tips_1.png" />
+    <AndroidAsset Include="Site\assets\img\tips\tips_2.jpg" />
+    <AndroidAsset Include="Site\assets\img\tips\tips_3.jpg" />
+    <AndroidAsset Include="Site\assets\img\visit\visit_1.jpg" />
+    <AndroidAsset Include="Site\assets\img\visit\visit_2.jpg" />
+    <AndroidAsset Include="Site\assets\img\visit\visit_3.jpg" />
+    <AndroidAsset Include="Site\assets\img\visit\visit_4.jpg" />
+    <AndroidAsset Include="Site\assets\js\animated.headline.js" />
+    <AndroidAsset Include="Site\assets\js\bootstrap.min.js" />
+    <AndroidAsset Include="Site\assets\js\contact.js" />
+    <AndroidAsset Include="Site\assets\js\gijgo.min.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.ajaxchimp.min.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.form.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.magnific-popup.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.nice-select.min.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.paroller.min.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.scrollUp.min.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.slicknav.min.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.sticky.js" />
+    <AndroidAsset Include="Site\assets\js\jquery.validate.min.js" />
+    <AndroidAsset Include="Site\assets\js\mail-script.js" />
+    <AndroidAsset Include="Site\assets\js\main.js" />
+    <AndroidAsset Include="Site\assets\js\one-page-nav-min.js" />
+    <AndroidAsset Include="Site\assets\js\owl.carousel.min.js" />
+    <AndroidAsset Include="Site\assets\js\plugins.js" />
+    <AndroidAsset Include="Site\assets\js\popper.min.js" />
+    <AndroidAsset Include="Site\assets\js\slick.min.js" />
+    <AndroidAsset Include="Site\assets\js\vendor\jquery-1.12.4.min.js" />
+    <AndroidAsset Include="Site\assets\js\vendor\modernizr-3.5.0.min.js" />
+    <AndroidAsset Include="Site\assets\js\wow.min.js" />
+    <AndroidAsset Include="Site\about.html" />
+    <AndroidAsset Include="Site\blog.html" />
+    <AndroidAsset Include="Site\contact.html" />
+    <AndroidAsset Include="Site\elements.html" />
+    <AndroidAsset Include="Site\index.html" />
+    <AndroidAsset Include="Site\main.html" />
+    <AndroidAsset Include="Site\services.html" />
+    <AndroidAsset Include="Site\single-blog.html" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -181,6 +357,156 @@
       <Project>{B1D91303-E3BF-4108-B897-80B455A3680C}</Project>
       <Name>AppGallery</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\css\style.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-brands-400.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-brands-400.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-brands-400.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-brands-400.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-regular-400.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-regular-400.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-regular-400.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-regular-400.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-solid-900.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-solid-900.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-solid-900.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\Flaticon.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\Flaticon.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\Flaticon.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\Flaticon.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\themify.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\themify.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\fonts\themify.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_blog.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_blog_page.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_bradcam.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_chooseBest.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_color.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_common.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_contact.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_david-droga.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_elements.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_extend.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_footer.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_generating-area.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_h1-hero.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_haveProject.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_headerMenu.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_mixins.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_overlay.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_recent.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_requestBack.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_services.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_services_section.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_team.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_testimonial.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_tips.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_visit-area.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_we-trusted.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_weCreate.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\_what-we-do.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Site\assets\scss\style.scss" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

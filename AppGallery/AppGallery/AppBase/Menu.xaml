@@ -46,6 +46,7 @@
                     <Button Text="SearchBar" Clicked="AbrirSearchBar"/>
                     <Button Text="RefreshView" Clicked="AbrirRefreshView"/>
                     <Button Text="SwipeWiew" Clicked="AbrirSwipeWiew"/>
+                    <Button Text="WebView" Clicked="AbrirWebView"/>
                     
                 </StackLayout>
             </ScrollView>

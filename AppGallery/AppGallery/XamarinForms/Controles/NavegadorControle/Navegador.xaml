@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="20"
+             x:Class="AppGallery.XamarinForms.Controles.NavegadorControle.Navegador">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="WebView"/>
+                <Label Text="Propriedades: Source(URL)"/>
+                <Label Text="Eventos:"/>
+                <Label Text="Observações: Habilitar internet (Android e WUP), Desabilitar o ATS no info.plist, Adicionar no Android Manifest dentro do Application android:usesClearTextTraffic='true' "/>
+                
+                <Frame BorderColor="Blue" Padding="1" IsVisible="false">
+                    <WebView x:Name="WebView1" Source="https://www.google.com" HorizontalOptions="FillAndExpand" HeightRequest="300"></WebView>
+                </Frame>
+                
+                <Frame BorderColor="Blue" Padding="1" IsVisible="false">
+                    <WebView x:Name="WebView2" HorizontalOptions="FillAndExpand" HeightRequest="300"></WebView>
+                </Frame>
+                <Frame BorderColor="Gray" Padding="5">
+                    <StackLayout>
+                        <Label x:Name="lblURL" Text="URL" HorizontalTextAlignment="Center" FontSize="20" TextColor="Black"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Voltar" Clicked="BotaoVoltar" HorizontalOptions="FillAndExpand"/>
+                            <Button Text="Atualizar" Clicked="BotaoAtualizar" HorizontalOptions="FillAndExpand"/>
+                            <Button Text="Proximo" Clicked="BotaoProximo" HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Blue" Padding="1" IsVisible="True">
+                    <ScrollView HorizontalScrollBarVisibility="Default">
+                    <WebView  Navigated="Carregado" Navigating="Carregando" x:Name="WebView3" HorizontalOptions="FillAndExpand" HeightRequest="300" WidthRequest="300"></WebView>
+                        
+                    </ScrollView>
+                </Frame>
+                <Frame BorderColor="Gray" Padding="5">
+                    <Label x:Name="lblStatus" Text="-" TextColor="Black" />
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
